@@ -42,8 +42,10 @@ This project is a web application that displays the current weather and forecast
     ```
 
     You will get the following rendered HTML:
+
     ![Preview rendered HTML of Madrid](https://github.com/diegofpb/em_weather/blob/main/28079.png?raw=true)
 
+   > Note that the HTML file will be rendered instantly, but not the weather data, since these have to be obtained from calls to the AEMET API, and it can take up to 10 seconds to answer the request in certain cases. If it is intended to obtain an image of such information, it is recommended to give a delay of approximately 10 seconds.
 
 
 ## Technologies Used
