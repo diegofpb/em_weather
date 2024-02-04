@@ -52,6 +52,10 @@ This project is a web application that displays the current weather and forecast
 - CSS3
 - JavaScript (Fetch API for API requests)
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Acknowledgments
 
 - Weather data provided by [AEMET OpenData](https://opendata.aemet.es/).
