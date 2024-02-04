@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    background: linear-gradient(to top, #3a85ca, #1c4990);
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    max-height: 240px;
+    max-width: 320px;
+    min-height: 240px;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 26px;
+    padding: 8px 6px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.city span {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.weather-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.day {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.condition-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+}
+
+.temp-max {
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+.temp-min {
+    font-size: 22px;
+    color: #c1bcbc;
+}
+
+.copyright {
+    margin-top: 5px;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+}
